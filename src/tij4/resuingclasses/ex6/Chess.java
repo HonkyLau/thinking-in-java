@@ -1,4 +1,4 @@
-package tij4.resuingclasses.Ex6;
+package tij4.resuingclasses.ex6;
 
 class Game {
     Game(int i) {
