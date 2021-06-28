@@ -1,7 +1,5 @@
 package tij4.polymorphism.ex7;
 
-import tij4.polymorphism.Note;
-
 class Instrument {
     void play(Note n) { System.out.print("Instrument.play() " + n); }
     public String toString() { return "Instrument"; }
