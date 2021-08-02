@@ -1,6 +1,8 @@
 package tij4.containers.generator;
 
 /**
+ * 一种类的生成方案
+ *
  * @author liuhongji
  */
 public class ClassGenerator<T> implements Generator<T>{

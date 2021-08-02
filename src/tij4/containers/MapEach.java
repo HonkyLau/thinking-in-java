@@ -12,10 +12,13 @@ import java.util.Map;
 public class MapEach {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<String, String>();
-        map.put("1", "A");
-        map.put("2", "B");
-        map.put("3", "C");
+        map.put("155", "A");
+        map.put("289", "B");
+        map.put("43", "C");
         map.put("4", "D");
+
+        System.out.println(map);
+
 
         // entrySet + for
         for (Map.Entry<String, String> entry :
@@ -25,7 +28,7 @@ public class MapEach {
 
         // iterator
         Iterator<Map.Entry<String, String>> iterator = map.entrySet().iterator();
-        if (iterator.hasNext()) {
+        while (iterator.hasNext()) {
             Map.Entry<String, String> next = iterator.next();
             System.out.println(next.getKey() + ":" + next.getValue());
         }
